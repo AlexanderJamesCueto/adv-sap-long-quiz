@@ -44,11 +44,26 @@
     - It is a web services that the class of internet software are made available for use by clients or other web-based programs from the web server of an application service provider.
 
 7. List and discuss the benefits of using Web Services.
-    - The benefits of using web services it decreased time needed to integrate apps and it leads to increased efficiency. The capacity to create new application far more quickly than in the past.
-
+   Exposing the existing function on the network
+        - it is a web service that managed code that can be remotely invoked using HTTP.
+   Interoperability
+        - It is the web services allowing various applications to talk to each other and sharing data among themselves.
+   Stardardized Protocol
+        - It is use for standardized industry-standard protocol for communications.
+   Low Cost Communication
+        - It is a web services use for SOAP over HTTP protocol, so we can use our existing  low-cost internet for implementing web services.
+   
 8. List and discuss the characteristics of Web Services.
-    - The modularity of web services, as I understand it is calling lower-layer web services from a web service implementation or by employing workflow techniques, simple web services can be combined to form a more complex ones. 
-    - Web services can be connected to each other to carry out more complex in business tasks. This allows for implementations and reduces development time.
+   XML-Based
+       - It is a web services use for XML at data representation and data transportation layers.
+   Loosely Coupled
+       - It is a web service is not tied to that web service directly.
+   Coarse-Grained
+       - It is an invdividual method to find an operation to provide any useful capability at a corporate level.
+   Ability to be Synchronous or Asynchronous
+       - It is synchronicity refers to the binding of the client to the execution of the service.
+    Supports Remote Procedure Calls
+       - It allows clients to invoke procedures, functions, and methods on remote objects using and XML-based protocol.
 
 9. List and discuss the distinct roles in Web Services Architecture.
     - There are three roles in architecture of a web service: Service provider, service requester, and the service registry.
@@ -60,5 +75,10 @@
     - The service registry it is a services that are being developed, service requestors locate the service and acquire binding information.
     
 10. List and discuss the Web Services Components.
-    Uses of web services:
-    - it is reachable by all users via the internet. While there are many uses for web services, code reuse and program connectivity are the most popular uses. Web services can be used to link data between different platforms. Developers can use this technique to break down applications into components that can be reused and used for different purposes.
+    SOAP
+        - It is a communication protocol that communicates between applications. It is also a platform and language independent.
+    WSDL
+        - It is an XML-based language for describing web services and how to access them. It is used for describing the web services and the process of accessing them.
+    UDDI
+        - It is also an XML-based standard for describing, publising, and finding web services. It is an open framework and platform-independent.
+    
